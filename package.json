@@ -9,14 +9,17 @@
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
     "prettier:fix": "prettier --write src/views",
-    "css-build": "sass src/assets/scss/main.scss src/assets/css/main.css"
+    "css-build": "sass src/assets/scss/main.scss src/assets/css/main.css",
+    "start": "node server.js"
   },
   "dependencies": {
     "@creativebulma/bulma-tooltip": "^1.2.0",
     "axios": "^0.27.2",
     "bulma": "^0.9.3",
     "core-js": "^3.8.3",
+    "express": "^4.18.1",
     "register-service-worker": "^1.7.2",
+    "serve-static": "^1.15.0",
     "vue": "^3.2.13",
     "vue-axios": "^3.4.1",
     "vue-router": "^4.0.3",
