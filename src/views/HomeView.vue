@@ -476,7 +476,7 @@
             <div class="column has-text-centered">
               <div class="top-icon is-flex is-justify-content-center">
                 <div class="icon-wrapper">
-                  <i class="mdi mdi-content-cut"></i>
+                  <i class="mdi mdi-diamond-stone"></i>
                 </div>
               </div>
               <div class="section-content-text">
@@ -552,7 +552,6 @@ export default {
   },
   data() {
     return {
-      selectedImage: "",
       images: [
         {
           id: "1",
@@ -574,7 +573,6 @@ export default {
         },
       ],
       activeImage: 0,
-      thumbsSwiper: null,
       showModal: false,
       weatherResult: "",
       cloud: "",
@@ -591,11 +589,13 @@ export default {
     };
   },
   computed: {
+    // Current Active Image
     currentImage() {
       return this.images[this.activeImage].big;
     },
   },
   methods: {
+    // Active Image
     activateImage(imageIndex) {
       this.activeImage = imageIndex;
     },
