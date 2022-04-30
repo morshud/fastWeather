@@ -461,7 +461,7 @@
             <div class="column has-text-centered">
               <div class="top-icon is-flex is-justify-content-center">
                 <div class="icon-wrapper">
-                  <i class="mdi mdi-content-cut"></i>
+                  <i class="mdi mdi-calendar-clock-outline"></i>
                 </div>
               </div>
               <div class="section-content-text">
