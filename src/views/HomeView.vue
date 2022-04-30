@@ -501,7 +501,7 @@
         />
       </div>
     </footer>
-    // Modal Component
+    <!-- Modal Component -->
     <modal-dialog
       :showModal="showModal"
       :title="weatherResult"
