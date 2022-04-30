@@ -603,7 +603,7 @@ export default {
       // Getting City List
       axios
         .get(
-          `http://api.openweathermap.org/geo/1.0/direct?q=${this.cityName}&limit=5&appid=ae03cfda7dc6e3020c4d7289989e3844`
+          `https://api.openweathermap.org/geo/1.0/direct?q=${this.cityName}&limit=5&appid=ae03cfda7dc6e3020c4d7289989e3844`
         )
         .then((res) => {
           {
@@ -625,7 +625,7 @@ export default {
       // Getting city longitude and Latitude Result with city name and country code
       axios
         .get(
-          `http://api.openweathermap.org/geo/1.0/direct?q=${arr[0]},${arr[1]}&limit=5&appid=ae03cfda7dc6e3020c4d7289989e3844`
+          `https://api.openweathermap.org/geo/1.0/direct?q=${arr[0]},${arr[1]}&limit=5&appid=ae03cfda7dc6e3020c4d7289989e3844`
         )
         .then((res) => {
           {
