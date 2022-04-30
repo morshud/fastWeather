@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap");
+
+// Import Font Awesome 5
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+// Import Material Design Icon
+@import url("https://cdn.jsdelivr.net/npm/@mdi/font@6.6.96/css/materialdesignicons.min.css");
+
+// Set your brand colors
+$red: #dc3545;
+$green: rgb(97, 206, 112);
+$brown: #757763;
+$blue: #f0f5fa;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $red;
+$secondary: $green;
+$link: $green;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$box-background-color: $red;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import "../../../node_modules/bulma/bulma.sass";
