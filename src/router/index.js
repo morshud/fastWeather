@@ -6,6 +6,14 @@ const routes = [
     path: "/",
     name: "home",
     component: HomeView,
+    beforeEnter: () => {
+      let auth = false;
+      if (auth) {
+        return;
+      } else {
+        console.log("not logged in");
+      }
+    },
   },
   {
     path: "/history",
